@@ -8,7 +8,7 @@ the following steps
 5. In the R console, use *source("run_analysis.R")*
 
 More information about the various files
-* README.md: This file. Describes how to run the script to process the dataset.
-* CodeBook.md: Describes the variables, the data, and any transformations or work to clean up the data 
-* run_analysis.R: The script to process the dataset and generate the second tidy dataset as described by the course project
-* second_dataset.txt: Output of the run_analysis.R script
+* **README.md**: This file. Describes how to run the script to process the dataset.
+* **CodeBook.md**: Describes the variables, the data, and any transformations or work to clean up the data 
+* **run_analysis.R**: The script to process the dataset and generate the second tidy dataset as described by the course project
+* **second_dataset.txt**: Output of the run_analysis.R script
