@@ -1,6 +1,5 @@
 # This file needs to be run inside the UCI HAR Dataset directory.
 
-# Read in files that are needed by both data files.
 # Read in the list of features that can be found
 features <- read.table("features.txt", col.names=c("feature_id","feature_name"))
 # Read in the list of activity labels
@@ -43,6 +42,7 @@ act_lbl_dataset <- merge(extracted_dataset, activity_labels)
 # Removing extra .
 n <- names(act_lbl_dataset)
 n <- gsub("\\.{2}", "", n)
+# Removing extra Body
 n <- gsub("BodyBody", "Body", n)
 colnames(act_lbl_dataset) <- n
 
